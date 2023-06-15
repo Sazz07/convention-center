@@ -1,0 +1,88 @@
+/* Font link */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+/* Font link end */
+
+/* Custom font Start */
+.text-poppins {
+  font-family: "Poppins", sans-serif;
+}
+.text-manrope {
+  font-family: "Manrope", sans-serif;
+}
+.text-roboto {
+  font-family: "Roboto", sans-serif;
+}
+/* Custom font end */
+
+/* Common Style */
+.section-gap {
+  margin-top: 100px;
+}
+
+/* carousel-section start */
+
+.carousel-item img {
+  object-fit: cover;
+  height: 80vh;
+  object-position: center;
+}
+.banner-paragraph {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* carousel-section End */
+/* Package Section Start */
+.package-card span,
+ul {
+  color: #848199;
+}
+.package-card ul li {
+  list-style-image: url("./icons/check-circle-1.svg");
+}
+
+.hot-card {
+  background-color: #3f87f5;
+  background-image: url("./images/Premium.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  box-shadow: 0 10px 35px #3f87f5;
+  cursor: pointer;
+  transition: transform 1s linear;
+}
+.hot-card:hover {
+  transform: translateY(-25px);
+}
+.hot span {
+  top: -18px;
+  right: 24px;
+}
+.chose-btn {
+  padding: 13px 74px;
+}
+/* Package Section End */
+
+/* Clients section start */
+.client-card{
+  padding: 20px 53px;
+}
+.client-card p {
+  font-size: 16px;
+  color: #6c6c6c;
+}
+/* Clients section end */
+
+/* FAQ Section Start */
+.accordion-body p{
+  color: #7E848C;
+  font-size: 16px;
+}
+/* FAQ Section End */
+footer{
+  height: 28vh;
+  color: #D9DBE1;
+  font-size: 14px;
+}
